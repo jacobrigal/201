@@ -13,13 +13,17 @@
             <nav>
                 <ul>
                     <li>
-
+                        Home
+                    </li>
+                    <li>
+                        Contact
                     </li>
                 </ul>
             </nav>  
-        <header>
+        </header>
         <main>
             <section>
+
                 <li>
 
                 </li>
@@ -35,10 +39,15 @@
         <script>
         
         var preName = prompt("What's thy prenom");
-        console.log("Thine prenom be ", preName); 
+        console.log("Thine prenom be " + preName); 
         var surName = prompt("what be thy suname? Much obliged. ")
-        console.log("You family name be "+ surName);
-        var favFood = prompt("What's thine OS that you do use? ")
+        console.log("Your family name be "+ surName);
+        var favFood = prompt("What's thine most beloved food that you do eat? ")
+        console.log(favFood + " be thy jam.")
+        var myOs = (prompt)("What OS be thine?")
+        console.log('You be a' + myOs + ' user'); 
+        finalMessage = alert("Thine prenom be " + preName + ". Your family name be "+ surName + ". " + favFood + " be thy jam. " + " You be a " + myOs + " user.");
+        console.log(finalMessage);
         </script>
         <script src="js/" async defer> </script>
     </body>
